@@ -1,3 +1,5 @@
+<img align="right" width="200" src="https://kotlinlang.org/assets/images/open-graph/kotlin_250x250.png" />
+
 # AlgoKt
 Algorithms and Data Structures in Kotlin
 
