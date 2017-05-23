@@ -44,3 +44,6 @@ Todo
   - Infix to Postfix
 - Modular exponentiation
 - Modular multiplicative inverse
+
+Made with ❤️ and Kotlin.
+
