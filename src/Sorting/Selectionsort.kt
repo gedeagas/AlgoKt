@@ -16,10 +16,8 @@ class Selectionsort(){
 
     fun selectionSort(length: Int){
         var start: Int = 0
-
         while (start<length){
             var lowest: Int = array!![start]
-
             for (i in start..length){
                 if(array!![i] < lowest){
                     lowest = array!![i]
@@ -30,11 +28,8 @@ class Selectionsort(){
                     println("Lowest ${lowest}")
 
                 }
-
             }
-
             println(start)
-
             start++
         }
 
