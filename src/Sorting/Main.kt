@@ -7,9 +7,12 @@ package Sorting
 object Main {
 
     @JvmStatic fun main(args: Array<String>) {
+        val arrayAngka = intArrayOf(2, 6, 5, 3, 8, 7, 1)
+
+        //Class
         val sortingWithQuickMethod = Quicksort()
         val sortingWithBubbleSort = Bubblesort()
-        val arrayAngka = intArrayOf(2, 6, 5, 3, 8, 7, 1)
+        val sortingWithSelection = Selectionsort()
 
         println("Array Sebelum di sorting")
         for(i in 0..arrayAngka.size-1)
@@ -17,8 +20,9 @@ object Main {
 
 
         println()
-        sortingWithBubbleSort.sorting(arrayAngka)
+        //sortingWithBubbleSort.sorting(arrayAngka)
         //sortingWithQuickMethod.sorting(arrayAngka)
+        sortingWithSelection.sorting(arrayAngka);
         println()
 
         println("Array Setelar Di Sorting")
