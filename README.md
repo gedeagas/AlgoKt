@@ -2,13 +2,14 @@
 
 # AlgoKt
 Algorithms and Data Structures in Kotlin
-
-Todo
+Completed
 ----
 - Karatsuba Multiplication
 - Basic Sorting
 - Rabin-Miller primality test
 - Sieve of Eratosthenes for prime numbers
+Todo
+----
 - Binary Search
 - Counting Inversions in an array
 - Selecting ith order statistic in an array
